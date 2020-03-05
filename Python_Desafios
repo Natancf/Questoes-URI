@@ -1,0 +1,20 @@
+def area():
+    valores = input('').split(' ')
+    A = float(valores[0])
+    B = float(valores[1])
+    C = float(valores[2])
+    π = 3.14159
+
+    a = (A * C) / 2
+    b = (C * C) * 3.14159
+    c = ((A + B) * C)/2
+    d = B * B
+    e = A * B
+
+    print("TRIANGULO: {:.3f}".format(a))
+    print("CIRCULO: {:.3f}".format(b))
+    print("TRAPEZIO: {:.3f}".format(c))
+    print("QUADRADO: {:.3f}".format(d))
+    print("RETANGULO: {:.3f}".format(e))
+
+area()
